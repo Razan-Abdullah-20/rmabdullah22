@@ -1,68 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>162981 - Razan Abdullah</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>162981 - Razan Mustafa Abdullah</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
- 
-<div class="profile-container">
-    <div class="profile-text">
-        <h1>Razan Mustafa Abdullah</h1>
-        <h2>CIS - Fourth Year</h2>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <span class="logo">MyPortfolio</span>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="contact.html">Contact Me</a> </div>
+    </div>
+</nav>
+
+<main class="container">
+    <header class="profile-header">
+        <div class="profile-img-container">
+            <img src="images/ myphoto.jpg" alt="Razan Mustafa Abdullah" class="profile-img">
+        </div>
+        <div class="profile-info">
+            <h1>Razan Mustafa Abdullah</h1>
+            <p class="subtitle">CIS | Fourth Year</p>
+            <p class="email-link">📧 <a href="mailto:rmabdullah22@cit.just.edu.jo">rmabdullah22@cit.just.edu.jo</a></p>
+        </div>
+    </header>
+
+    <div class="grid">
+        <section class="card">
+            <h3>Key Soft Skills</h3>
+            <ul class="skills-list">
+                <li>Teamwork</li>
+                <li>Self-Learning</li>
+                <li>Problem-solving</li>
+                <li>Communication</li>
+                <li>Adaptability</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h3>Tools & Tech</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tool</th>
+                        <th>Resource</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Python</td>
+                        <td><a href="https://www.python.org" target="_blank">python.org</a></td>
+                    </tr>
+                    <tr>
+                        <td>Flutter</td>
+                        <td><a href="https://flutter.dev/" target="_blank">wireshark.org</a></td>
+                    </tr>
+                     <tr>
+                        <td>Figma</td>
+                        <td><a href="https://www.figma.com/" target="_blank">wireshark.org</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </div>
 
-    <img src="https://rmabdullah22.github.io/images/%20myphoto.JPG" width="200">
-</div>
-
-<h3>Soft Skills</h3>
-<ul>
-    <li>Teamwork</li>
-    <li>Problem Solving</li>
-    <li>Communication</li>
-    <li>Adaptability</li>
-    <li>Self-Learning</li>
-</ul>
-
-<h3>Favorite Tools and Framework</h3>
-<table border="1">
-    <tr>
-        <th>Tools, Framework</th>
-        <th>Website</th>
-    </tr>
-
-    <tr>
-        <td>Python</td>
-        <td><a href="https://python.org">Python</a></td>
-    </tr>
-
-    <tr>
-        <td>Flutter</td>
-        <td><a href="https://flutter.dev/">Flutter</a></td>
-    </tr>
-
-    <tr>
-        <td>Figma</td>
-        <td><a href="https://www.figma.com/">Figma</a></td>
-    </tr>
-</table>
-
-<h3>
-Where Do I See Myself in 4 Years?
-</h3>
-
-<p>
-In four years, I see myself working as a Flutter developer in a professional software development company, I aim to use my knowledge of programming, systems, 
-and problem-solving to build efficient and user-friendly mobile applications, I plan to continue improving my skills in Flutter and mobile development while 
-learning more about modern technologies used in the software industry
-</p>
-
-<div class="links">
-    <a href="contact.html", class="btn-primary">Contact Me</a>
-    <a href="mailto:rmabdullah22@cit.just.edu.jo" class="btn-primary">Email Me</a>
-</div>
+    <section class="card goal-section">
+        <h3>Where Do I See Myself in 4 Years?</h3>
+        <p>
+            In four years, I see myself working as a Flutter developer in a professional software development company, I aim to use my knowledge of programming, systems, 
+            and problem-solving to build efficient and user-friendly mobile applications, I plan to continue improving my skills in Flutter and mobile development while 
+            learning more about modern technologies used in the software industry
+        </p>
+    </section>
+</main>
 
 </body>
-
 </html>
